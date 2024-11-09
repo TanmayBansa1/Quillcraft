@@ -13,8 +13,12 @@ Quillcraft is a modern, lightweight blogging platform built with React, Tailwind
 - Secure: Sanitized inputs to prevent XSS attacks, ensuring safe content handling.
 
 ## Tech Stack
-- Frontend: ReactJS, Tailwind CSS
+- Frontend: ReactJS, Tailwind CSS, Typescript
 
 - Backend: Hono.js (running on Cloudflare Workers)
 
-- Deployment: Cloudflare Workers
+- Deployment: Cloudflare Workers, Vercel
+  
+- Database and ORM: PostgreSQL (aivenDB) and Prisma
+
+- Other Tools and libraries: JoditEditor, JsonWebTokens, ZOD, CORS, axios
